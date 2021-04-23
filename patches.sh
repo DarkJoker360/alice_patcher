@@ -46,8 +46,5 @@ git fetch https://github.com/DarkJoker360/android_vendor_lineage
 git cherry-pick ffaaece5655263f5db69e65e68bed9d3bbca546e
 cd ../..
 
-rm -rf system/core/init
-git clone https://github.com/DarkJoker360/alice_system_core_init system/core/init
-
 echo "Done..."
 
